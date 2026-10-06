@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "startercompass",
+	"version": "${version}",
+	"name": "Starter Compass",
+	"description": "First-join cooked beef + spawn compass, a /compass command, and hidden coordinates / locator bar.",
+	"authors": [
+		"You"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.startercompass.StarterCompassMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
